@@ -177,7 +177,7 @@ speed_test() {
 
 speed() {
     speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
-    speed_test 'http://speedtest.tokyo2.linode.com/100MB-tokyo.bin''Linode, Tokyo, JP'
+    speed_test 'http://speedtest.tokyo2.linode.com/100MB-tokyo.bin' 'Linode, Tokyo, JP'
     speed_test 'http://hnd-jp-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Tokyo, JP'
     speed_test 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, SG'
     speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, SG'
