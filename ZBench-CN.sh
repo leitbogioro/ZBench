@@ -177,19 +177,20 @@ speed_test() {
 
 speed() {
     speed_test 'http://cachefly.cachefly.net/100mb.test' 'CacheFly'
-    speed_test 'http://speedtest.tokyo2.linode.com/100MB-tokyo.bin' 'Linode, 东京, 日本'
-    speed_test 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, 新加坡'
-    speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, 新加坡'
-    speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, 香港, 中国'
-    speed_test 'http://sel-kor-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, 首尔, 韩国'
-    speed_test 'http://syd-au-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, 悉尼, 澳大利亚'
-    speed_test 'http://speedtest.fremont.linode.com/100MB-fremont.bin' 'Linode, 费利蒙, 美国'
-    speed_test 'http://speedtest.dal05.softlayer.com/downloads/test100.zip' 'Softlayer, 达拉斯, 美国'
-    speed_test 'http://speedtest.wdc01.softlayer.com/downloads/test100.zip' 'Softlayer, 华盛顿, 美国'
-    speed_test 'http://speedtest.london.linode.com/100MB-london.bin' 'Linode, 伦敦, 英国'
-    speed_test 'http://par-fr-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, 巴黎, 法国'
-    speed_test 'http://speedtest.fra02.softlayer.com/downloads/test100.zip' 'Softlayer, 法兰克福, 德国'
-    speed_test 'http://speedtest.ams01.softlayer.com/downloads/test100.zip' 'Softlayer, 阿姆斯特丹, 荷兰'
+    speed_test 'http://speedtest.tokyo2.linode.com/100MB-tokyo.bin''Linode, Tokyo, JP'
+    speed_test 'http://hnd-jp-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Tokyo, JP'
+    speed_test 'http://speedtest.singapore.linode.com/100MB-singapore.bin' 'Linode, SG'
+    speed_test 'http://speedtest.sng01.softlayer.com/downloads/test100.zip' 'Softlayer, SG'
+    speed_test 'http://speedtest.hkg02.softlayer.com/downloads/test100.zip' 'Softlayer, HongKong, CN'
+    speed_test 'http://sel-kor-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Seoul, KR'
+    speed_test 'http://syd-au-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Sydney, AU'
+    speed_test 'http://speedtest.fremont.linode.com/100MB-fremont.bin' 'Linode, Fremont, US'
+    speed_test 'http://speedtest.dal05.softlayer.com/downloads/test100.zip' 'Softlayer, Dallas, US'
+    speed_test 'http://speedtest.wdc01.softlayer.com/downloads/test100.zip' 'Softlayer, Washington, US'
+    speed_test 'http://speedtest.london.linode.com/100MB-london.bin' 'Linode, London, UK'
+    speed_test 'http://par-fr-ping.vultr.com/vultr.com.100MB.bin' 'Vultr, Paris, FR'
+    speed_test 'http://speedtest.fra02.softlayer.com/downloads/test100.zip' 'Softlayer, Frankfurt, DE'
+    speed_test 'http://speedtest.ams01.softlayer.com/downloads/test100.zip' 'Softlayer, Amsterdam, NL'
 }
 
 speed_test_cn(){
